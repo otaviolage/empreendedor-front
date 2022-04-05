@@ -1,0 +1,391 @@
+{
+   "products":[
+      {
+         "sku":"d9059f0f492f4d71a2b4",
+         "originalId":"2305061-00",
+         "name":"CURSO FINANÇAS",
+         "imageUrl":"https://codegate01.com/wp-content/uploads/2020/05/curso-html.jpg",
+         "hasPriceUpdated":false,
+         "availability":{
+            "price":39
+         },
+         "subcategory":{
+            "id":62,
+            "name":"Desenvolvimento Web",
+            "category":{
+               "id":7,
+               "name":"TI e Software"
+            }
+         },
+         "brand":{
+            "id":78378,
+            "name":"outros"
+         },
+         "vendor":{
+            "id":62,
+            "name":"Udemy"
+         },
+         "skuFeatures":[
+
+         ],
+         "type":1,
+         "servicePath":null
+      },
+      {
+         "sku":"dbd6272add8d42199134",
+         "originalId":"2305060-00",
+         "name":"CURSO CONTABILIDADE",
+         "imageUrl":"https://oraculoti.com.br/wp-content/uploads/2018/06/Curso-JavaScript-Completo-com-6-Projetos-Reais.jpg",
+         "hasPriceUpdated":false,
+         "availability":{
+            "price":35
+         },
+         "subcategory":{
+            "id":62,
+            "name":"Front End",
+            "category":{
+               "id":7,
+               "name":"Programação"
+            }
+         },
+         "brand":{
+            "id":78378,
+            "name":"outros"
+         },
+         "vendor":{
+            "id":62,
+            "name":"Alura"
+         },
+         "skuFeatures":[
+
+         ],
+         "type":1,
+         "servicePath":null
+      },
+      {
+         "sku":"8608e689982e49d58a8e",
+         "originalId":"2305067-00",
+         "name":"CURSO DE RH",
+         "imageUrl":"https://jornadadodev.com.br/sites/default/files/cursos/curso-css3.jpg",
+         "hasPriceUpdated":false,
+         "availability":{
+            "price":27
+         },
+         "subcategory":{
+            "id":62,
+            "name":"Programação Web",
+            "category":{
+               "id":7,
+               "name":"Cursos"
+            }
+         },
+         "brand":{
+            "id":78378,
+            "name":"outros"
+         },
+         "vendor":{
+            "id":62,
+            "name":"DevMedia"
+         },
+         "skuFeatures":[
+
+         ],
+         "type":1,
+         "servicePath":null
+      },
+      {
+         "sku":"e73944e3ea20421c980a",
+         "originalId":"2306004-00",
+         "name":"Curso Operações",
+         "imageUrl":"https://i.ytimg.com/vi/Ds1n6aHchRU/maxresdefault.jpg",
+         "hasPriceUpdated":false,
+         "availability":{
+            "price":40
+         },
+         "subcategory":{
+            "id":62,
+            "name":"Lógica de Programação",
+            "category":{
+               "id":7,
+               "name":"Programação"
+            }
+         },
+         "brand":{
+            "id":78378,
+            "name":"outros"
+         },
+         "vendor":{
+            "id":62,
+            "name":"Infinity Cursos"
+         },
+         "skuFeatures":[
+
+         ],
+         "type":1,
+         "servicePath":null
+      },
+      {
+         "sku":"f22576d3c3ee4dd98cd3",
+         "originalId":"2309079-00",
+         "name":"Curso Algoritmos (Espanhol)",
+         "imageUrl":"https://edteam-media.s3.amazonaws.com/courses/original/65966ad6-7ba4-4362-8f33-53ca344e95ca.png",
+         "hasPriceUpdated":false,
+         "availability":{
+            "price":45
+         },
+         "subcategory":{
+            "id":62,
+            "name":"Programação e Tecnologia",
+            "category":{
+               "id":7,
+               "name":"Cursos"
+            }
+         },
+         "brand":{
+            "id":78378,
+            "name":"outros"
+         },
+         "vendor":{
+            "id":62,
+            "name":"EDteam"
+         },
+         "skuFeatures":[
+
+         ],
+         "type":1,
+         "servicePath":null
+      },
+      {
+         "sku":"ec36e99f0df64c729964",
+         "originalId":"2311507-00",
+         "name":"Curso Java",
+         "imageUrl":"https://cptstatic.s3.amazonaws.com/imagens/produtos/500px/45663/programacao-java-01.jpg",
+         "hasPriceUpdated":false,
+         "availability":{
+            "price":34
+         },
+         "subcategory":{
+            "id":62,
+            "name":"Linguagens de programação",
+            "category":{
+               "id":7,
+               "name":"Desenvolvimento"
+            }
+         },
+         "brand":{
+            "id":78378,
+            "name":"outros"
+         },
+         "vendor":{
+            "id":62,
+            "name":"Udemy"
+         },
+         "skuFeatures":[
+
+         ],
+         "type":1,
+         "servicePath":null
+      },
+      {
+         "sku":"d5eff08bb97c4cdea6e2",
+         "originalId":"2313049-00",
+         "name":"Curso C# ",
+         "imageUrl":"https://dkrn4sk0rn31v.cloudfront.net/uploads/2019/02/01143234/PROVEDORES-LOG.png",
+         "hasPriceUpdated":false,
+         "availability":{
+            "price":42
+         },
+         "subcategory":{
+            "id":62,
+            "name":"C# Completo",
+            "category":{
+               "id":7,
+               "name":"Cursos"
+            }
+         },
+         "brand":{
+            "id":78378,
+            "name":"outros"
+         },
+         "vendor":{
+            "id":62,
+            "name":"COD3R"
+         },
+         "skuFeatures":[
+
+         ],
+         "type":1,
+         "servicePath":null
+      },
+      {
+         "sku":"fdf3a2a12cb142be8f6d",
+         "originalId":"2306031-00",
+         "name":"Curso C++ (Inglês)",
+         "imageUrl":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/51/af81efe486417a81ab080be3ed731a/C-PartA.jpg?auto=format%2Ccompress&dpr=1",
+         "hasPriceUpdated":false,
+         "availability":{
+            "price":55
+         },
+         "subcategory":{
+            "id":62,
+            "name":"Desenvolvimento de Software",
+            "category":{
+               "id":7,
+               "name":"Ciência da Computação"
+            }
+         },
+         "brand":{
+            "id":78378,
+            "name":"outros"
+         },
+         "vendor":{
+            "id":62,
+            "name":"Coursera"
+         },
+         "skuFeatures":[
+
+         ],
+         "type":1,
+         "servicePath":null
+      },
+      {
+         "sku":"3ff38abad4234410a351",
+         "originalId":"2305065-00",
+         "name":"Curso Python",
+         "imageUrl":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/bf/af25202b6411e7973bdddc08fd00dc/curso-python_V4.png?auto=format%2Ccompress&dpr=1",
+         "hasPriceUpdated":false,
+         "availability":{
+            "price":34
+         },
+         "subcategory":{
+            "id":62,
+            "name":"Linguagens de Programaçãp",
+            "category":{
+               "id":7,
+               "name":"Desenvolvimento"
+            }
+         },
+         "brand":{
+            "id":78378,
+            "name":"outros"
+         },
+         "vendor":{
+            "id":62,
+            "name":"Udemy"
+         },
+         "skuFeatures":[
+
+         ],
+         "type":1,
+         "servicePath":null
+      },
+      {
+         "sku":"20a0aa179de542ae8ad1",
+         "originalId":"2309544-00",
+         "name":"Curso React",
+         "imageUrl":"https://blog.fcamara.com.br/wp-content/uploads/2019/03/1_y6C4nSvy2Woe0m7bWEn4BA.png",
+         "hasPriceUpdated":false,
+         "availability":{
+            "price":65
+         },
+         "subcategory":{
+            "id":62,
+            "name":"Desenvolvimento Web",
+            "category":{
+               "id":7,
+               "name":"Desenvolvimento"
+            }
+         },
+         "brand":{
+            "id":78378,
+            "name":"outros"
+         },
+         "vendor":{
+            "id":62,
+            "name":"Udemy"
+         },
+         "skuFeatures":[
+
+         ],
+         "type":1,
+         "servicePath":null
+      },
+      {
+         "sku":"0e88ecb9ddc04b98af21",
+         "originalId":"2288607-00",
+         "name":"Curso Banco de Dados",
+         "imageUrl":"https://a-static.mlcdn.com.br/618x463/curso-de-banco-de-dados-gokursos/gokursos/014-ec/600a8ddb0ab7a0bfb2468af087a389d3.jpeg",
+         "hasPriceUpdated":false,
+         "availability":{
+            "price":27
+         },
+         "subcategory":{
+            "id":38,
+            "name":"Gestão de Banco de Dados",
+            "category":{
+               "id":5,
+               "name":"Design e desenvolvimento de bancos de dados"
+            }
+         },
+         "brand":{
+            "id":78378,
+            "name":"outros"
+         },
+         "vendor":{
+            "id":62,
+            "name":"Udemy"
+         },
+         "skuFeatures":[
+            {
+               "name":"Banco de Dados",
+               "value":"58 horas",
+               "type":"Banco de Dados"
+            }
+         ],
+         "type":1,
+         "servicePath":null
+      },
+      {
+         "sku":"eec7a42aa62d469e9e71",
+         "originalId":"2300305-00",
+         "name":"Curso PHP Básico ",
+         "imageUrl":"https://fernandoportugal.com/wp-content/uploads/2020/10/projeto_mvc.png",
+         "hasPriceUpdated":false,
+         "availability":{
+            "price":18
+         },
+         "subcategory":{
+            "id":38,
+            "name":"PHP Básico",
+            "category":{
+               "id":5,
+               "name":"Cursos"
+            }
+         },
+         "brand":{
+            "id":78378,
+            "name":"outros"
+         },
+         "vendor":{
+            "id":62,
+            "name":"Curso em Vídeo"
+         },
+         "skuFeatures":[
+            {
+               "name":"Curso PHP",
+               "value":"40 horas",
+               "type":"Curso PHP"
+            }
+         ],
+         "type":1,
+         "servicePath":null
+      }
+   ],
+   "vendors":[
+      {
+         "id":62,
+         "name":"Curso em Vídeo",
+         "quantity":21005
+      }
+   ]
+} 
