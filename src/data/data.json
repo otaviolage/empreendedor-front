@@ -2,96 +2,15 @@
    "products":[
       {
          "sku":"d9059f0f492f4d71a2b4",
-         "originalId":"2305061-00",
          "name":"CURSO FINANÇAS",
          "imageUrl":"https://codegate01.com/wp-content/uploads/2020/05/curso-html.jpg",
-         "hasPriceUpdated":false,
          "availability":{
-            "price":39
-         },
-         "subcategory":{
-            "id":62,
-            "name":"Desenvolvimento Web",
-            "category":{
-               "id":7,
-               "name":"TI e Software"
-            }
-         },
-         "brand":{
-            "id":78378,
-            "name":"outros"
+            "price":40
          },
          "vendor":{
             "id":62,
             "name":"Udemy"
-         },
-         "skuFeatures":[
-
-         ],
-         "type":1,
-         "servicePath":null
-      },
-      {
-         "sku":"dbd6272add8d42199134",
-         "originalId":"2305060-00",
-         "name":"CURSO CONTABILIDADE",
-         "imageUrl":"https://oraculoti.com.br/wp-content/uploads/2018/06/Curso-JavaScript-Completo-com-6-Projetos-Reais.jpg",
-         "hasPriceUpdated":false,
-         "availability":{
-            "price":35
-         },
-         "subcategory":{
-            "id":62,
-            "name":"Front End",
-            "category":{
-               "id":7,
-               "name":"Programação"
-            }
-         },
-         "brand":{
-            "id":78378,
-            "name":"outros"
-         },
-         "vendor":{
-            "id":62,
-            "name":"Alura"
-         },
-         "skuFeatures":[
-
-         ],
-         "type":1,
-         "servicePath":null
-      },
-      {
-         "sku":"8608e689982e49d58a8e",
-         "originalId":"2305067-00",
-         "name":"CURSO DE RH",
-         "imageUrl":"https://jornadadodev.com.br/sites/default/files/cursos/curso-css3.jpg",
-         "hasPriceUpdated":false,
-         "availability":{
-            "price":27
-         },
-         "subcategory":{
-            "id":62,
-            "name":"Programação Web",
-            "category":{
-               "id":7,
-               "name":"Cursos"
-            }
-         },
-         "brand":{
-            "id":78378,
-            "name":"outros"
-         },
-         "vendor":{
-            "id":62,
-            "name":"DevMedia"
-         },
-         "skuFeatures":[
-
-         ],
-         "type":1,
-         "servicePath":null
+         }
       },
       {
          "sku":"e73944e3ea20421c980a",

@@ -1,20 +1,19 @@
 import React from "react";
 import "./style.css";
 import {
-  ShoppingCart,
   Storefront,
   DashboardOutlined,
 } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 
 export default function Header(page) {
-  var cart = JSON.parse(localStorage.getItem("@solidboard:cart"));
+  // var cart = JSON.parse(localStorage.getItem("@solidboard:cart"));
 
-  const setLength = () => {
-    var length = 0;
-    for (var k in cart) if (cart.hasOwnProperty(k)) length++;
-    return length;
-  };
+  // const setLength = () => {
+  //   var length = 0;
+  //   for (var k in cart) if (cart.hasOwnProperty(k)) length++;
+  //   return length;
+  // };
 
   console.log(page.page);
 
