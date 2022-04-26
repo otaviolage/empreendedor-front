@@ -7,14 +7,6 @@ import {
 import { Link } from "react-router-dom";
 
 export default function Header(page) {
-  // var cart = JSON.parse(localStorage.getItem("@solidboard:cart"));
-
-  // const setLength = () => {
-  //   var length = 0;
-  //   for (var k in cart) if (cart.hasOwnProperty(k)) length++;
-  //   return length;
-  // };
-
   console.log(page.page);
 
   return (
