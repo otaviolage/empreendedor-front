@@ -46,7 +46,7 @@ class Admin extends React.Component {
         <Header page='admin'/>
         <div className="Admin">
           <div className="container">
-            <div className="others">
+            <div className="form">
               <form onSubmit={this.handleSubmit}>
                 <div>
                   <label>
@@ -78,6 +78,13 @@ class Admin extends React.Component {
                     <input type="text" name="vendor" onChange={this.handleChange} />
                   </label>
                 </div>
+                <div>
+                  <label>
+                    Parceiro:
+                    <input type="text" name="vendor" onChange={this.handleChange} />
+                  </label>
+                </div>
+                <br />
                 <button type="submit">Add</button>
               </form>
             </div>
