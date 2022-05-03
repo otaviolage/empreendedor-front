@@ -4,6 +4,8 @@ import Home from '../pages/Home'
 import Cart from '../pages/Cart'
 import Admin from '../pages/admin/index'
 import Purchased from '../pages/Purchased'
+import LoginControl from '../pages/Login/LoginControl'
+import Signup from '../pages/Login/Signup'
 
 
 const Routes = ()=>{
@@ -14,6 +16,8 @@ const Routes = ()=>{
         <Route path="/cart" component={Cart}/>
         <Route path="/admin" component={Admin}/>
         <Route path="/purchased" component={Purchased}/>
+        <Route path="/login-control" component={LoginControl}/>
+        <Route path="/signup" component={Signup}/>
     </Switch>
     );
 }

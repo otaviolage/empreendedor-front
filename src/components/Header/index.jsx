@@ -28,7 +28,7 @@ export default function Header(page) {
             )}
           </Link>
 
-          <Link to="./admin" className="sacola">
+          <Link to="./login-control" className="sacola">
             {page.page === "admin" ? (
               <div className="selected">
                 <DashboardOutlined />
