@@ -1,0 +1,45 @@
+.purchased{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.purchased .body-purchased{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    max-width: 800px;
+    margin-top: 100px;
+}
+
+.body-purchased h1{
+    color: #0a6fc7;
+}
+
+.return {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #3da30a;
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.remove {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: none
+}
+
+.return:hover{
+    background-color: #58c223;
+}

@@ -1,0 +1,40 @@
+.form{
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+input {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ED145B;
+}
+
+input:focus {
+  border: 3px solid #454647;
+}
+
+button {
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ED145B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color: #000000;
+}
