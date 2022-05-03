@@ -3,7 +3,6 @@ import {useCart} from '../../hooks/Cart';
 import { useEffect, useState, useMemo } from "react";
 import formatPrice from "../../utils/formatPrice";
 
-
 const Product = ({prod})=>{
     const {addToCart, cart, deleteToCart} = useCart();
     const parcela = prod.availability.price/8;
