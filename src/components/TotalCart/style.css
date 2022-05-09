@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oxygen:wght@300;400;700&display=swap');
+
+
 .totalcart{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     color:#404040;
+    
 }
 
 .totalcart .box-totalcart{
@@ -11,9 +15,11 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    width: 95%;
+    margin-top: 20px;
+    width: 45%;
     background-color: rgb(250, 250, 250);
-    height: 150px;
+    height: 50px;
+    border-radius: 20px;
 }
 
 .totalcart .box-totalcart .desc-preco{
@@ -24,10 +30,12 @@
 
 .totalcart .box-totalcart .desc-preco p{
     font-weight: bold;
+    font-family: 'Ubuntu';
 }
 
 .totalcart .box-totalcart .desc-preco div p{
-    color: #0a6fc7;
+    color: #4c3fff;
+    font-size: 15px;
 }
 
 .totalcart .box-totalcart .continue{

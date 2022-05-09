@@ -3,6 +3,7 @@ import LoginControl from "./LoginControl";
 import "./NavbarStyle.css";
 
 
+
 class Navbar extends React.Component {
   constructor(props){
     super(props);
@@ -16,8 +17,8 @@ class Navbar extends React.Component {
 
         <div className="main_box--header">
           <h2><b>{header_h2__bold}</b> {header_title} </h2>
-          <p>{header_info}</p>
-        </div>
+          <p>{header_info}</p>'
+        </div>'
 
         <div className="main_box--main">
         <div className="main_box--main--title">

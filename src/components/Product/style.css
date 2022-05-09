@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oxygen:wght@300;400;700&family=Ubuntu:wght@500&display=swap');
+
 .product{
+    margin: 10px;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
     display: flex;
     flex-direction: column;
     width: 22%;
@@ -11,11 +15,12 @@
 }
 
 .product:hover{
-    box-shadow: 0px 0px 21px -5px grey;
+    box-shadow: 0px 0px 21px -5px rgb(0, 0, 0);
     transition: 500ms;
 }
 
 .product .name-product {
+    font-family: 'Ubuntu';
     width: 100%;
     display: flex;
     align-items: center;
@@ -23,10 +28,13 @@
 }
 
 .product .name-product p{
+    font-family: 'Ubuntu';
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    color: #404040;
+    color: #ffffff;
+    font-size: 1.4em;
     width: 85%;
     font-weight: inherit;
 }
@@ -36,22 +44,28 @@
     flex-direction: column;
     justify-content: space-around;
     width: 85%;
-    height: 60px;
+    height: 20px;
+    
 }
 
 .product .preco-product p:nth-child(1){
     font-size: 13px;
     color: gray;
+    
 }
 
 .product .preco-product p:nth-child(3){
     font-size: 15px;
+    
     color: #404040;
 }
 
 .product .preco-product h4{
-    font-size: 26px;
-    color: #0a6fc7;
+    align-items: center;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    color: #f6f6f6;
 }
 
 
@@ -63,7 +77,10 @@
     height: 320px;
 }
 .product .img-product img{
-    width: 80px;
+    width: 250px;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
 }
 
 
@@ -72,12 +89,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
 }
 
 
 .product:hover .img-like img{
     opacity: 1;
     transition: 600ms;
+    
 }
 
 .product:hover .img-like:hover img:nth-child(2){
@@ -103,17 +123,24 @@
     position: absolute;
     right: 15px;
 }
-.product .comprar .adicionar{
-    width: 180px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: #ED145B;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    cursor: pointer;
-}
+
+
+.product .comprar .adicionar {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+.product .comprar .adicionar {
+    width: 200px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: block;
+ }
+ .product .comprar .adicionar:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
 .product .comprar .adicionar:hover{
     background-color: #000000;
 }
@@ -123,23 +150,31 @@
     text-decoration: none;
 }
 
+\\Botão de Remover
 .product .comprar .remover{
-    width: 180px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: #454647;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    cursor: pointer;
+
 }
 .product .comprar .remover:hover{
-    background-color: #25292C;
+    background-color: #0091ff;
 }
 .product .comprar .remover{
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: none;
 }
-
+.product .comprar .remover {background-image: linear-gradient(to right, #ff0084 0%, #33001b  51%, #ff0084  100%)}
+.product .comprar .remover {
+    width: 200px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: block;
+ }
+ .product .comprar .remover:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
