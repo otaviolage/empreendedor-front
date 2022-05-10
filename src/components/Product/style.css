@@ -150,10 +150,6 @@
     text-decoration: none;
 }
 
-\\Botão de Remover
-.product .comprar .remover{
-
-}
 .product .comprar .remover:hover{
     background-color: #0091ff;
 }

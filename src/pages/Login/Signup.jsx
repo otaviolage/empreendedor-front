@@ -11,7 +11,6 @@ class Signup extends Component {
     }
   }
 
-
   NewUser = () => {
     var username = document.getElementById("signUpUsername").value;
     var password1 = document.getElementById("signUpPassword1").value;
@@ -30,7 +29,6 @@ class Signup extends Component {
       alert("The passwords you entered do not match.");
     }
   }
-
 
   render() {
     return (

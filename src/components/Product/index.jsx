@@ -6,7 +6,7 @@ import formatPrice from "../../utils/formatPrice";
 
 const Product = ({ prod }) => {
     const { addToCart, cart, deleteToCart } = useCart();
-    const parcela = prod.availability.price / 8;
+    // const parcela = prod.availability.price / 8;
 
     const [isInCart, setIsInCart] = useState(false);
     useEffect(() => {

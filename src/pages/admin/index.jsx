@@ -78,12 +78,6 @@ class Admin extends React.Component {
                     <input type="text" name="vendor" onChange={this.handleChange} />
                   </label>
                 </div>
-                <div>
-                  <label>
-                    Parceiro:
-                    <input type="text" name="vendor" onChange={this.handleChange} />
-                  </label>
-                </div>
                 <br />
                 <button type="submit">Add</button>
               </form>
