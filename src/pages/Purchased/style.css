@@ -14,8 +14,8 @@
     margin-top: 100px;
 }
 
-.body-purchased h1{
-    color: #0a6fc7;
+.body-purchased h1, h5{
+    color: #efefef;
 }
 
 .return {

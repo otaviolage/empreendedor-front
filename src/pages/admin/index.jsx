@@ -50,7 +50,7 @@ class Admin extends React.Component {
               <form onSubmit={this.handleSubmit}>
                 <div>
                   <label>
-                    SKU:
+                    Código:
                     <input type="text" name="sku" onChange={this.handleChange} />
                   </label>
                 </div>
@@ -74,7 +74,7 @@ class Admin extends React.Component {
                 </div>
                 <div>
                   <label>
-                    Parceiro:
+                    Descrição:
                     <input type="text" name="vendor" onChange={this.handleChange} />
                   </label>
                 </div>

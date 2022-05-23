@@ -45,7 +45,7 @@
     justify-content: space-around;
     width: 85%;
     height: 20px;
-    
+    margin-top: 30px;
 }
 
 .product .preco-product p:nth-child(1){
@@ -68,7 +68,6 @@
     color: #f6f6f6;
 }
 
-
 .product .box-product{
     display: flex;
     flex-direction: column;
@@ -83,7 +82,6 @@
     border-radius: 10px;
 }
 
-
 .product .img-product{
     width: 100%;
     display: flex;
@@ -92,7 +90,6 @@
     
     
 }
-
 
 .product:hover .img-like img{
     opacity: 1;
@@ -124,10 +121,10 @@
     right: 15px;
 }
 
-
 .product .comprar .adicionar {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
 .product .comprar .adicionar {
-    width: 200px;
+   width: 200px;
+   font-weight: bold;
    text-align: center;
    text-transform: uppercase;
    transition: 0.5s;

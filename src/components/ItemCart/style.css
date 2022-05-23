@@ -9,7 +9,6 @@
     width: 95%;
     min-height: 140px;
     max-width: 800px;
-    border-bottom: 2px solid rgb(224, 222, 222);
     flex-wrap: wrap;
 }
 
@@ -101,6 +100,7 @@
 .itemcart .box-itemcart .desc-item .vendedor{
     color: #cacaca;
     font-size: 15px;
+    padding-top: 20px;
 }
 
 .itemcart .box-itemcart .precos{

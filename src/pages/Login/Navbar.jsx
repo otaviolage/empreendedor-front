@@ -2,8 +2,6 @@ import React from 'react';
 import LoginControl from "./LoginControl";
 import "./NavbarStyle.css";
 
-
-
 class Navbar extends React.Component {
   constructor(props){
     super(props);

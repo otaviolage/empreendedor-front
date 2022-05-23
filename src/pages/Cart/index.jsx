@@ -4,8 +4,6 @@ import Header from '../../components/Header';
 import TotalCart from '../../components/TotalCart';
 import { useCart } from '../../hooks/Cart';
 
-
-
 const Cart = () => {
     const { cart } = useCart();
 
@@ -13,7 +11,14 @@ const Cart = () => {
         <div className="cart">
             <Header page='cart'/>
             <div className="body-cart">
-                <h1>Sacola</h1>
+                {cart.length &&
+                <div className="box-itemcart">
+                    <img className="img-item" src={cart[0].imageUrl} alt="airfryer"/>
+                    <h1>{cart[0].name}</h1>
+                    <h3>Especialista em recursos humanos com 6 anos de experiência no setor.</h3>
+                </div>
+                }
+                <br/>
                 <div className="item-cart">
                     {cart.length 
                         ?cart.map((cartItem) => {

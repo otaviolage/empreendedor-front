@@ -12,6 +12,7 @@ const Purchased = () => {
             <Header />
             <div className="body-purchased">
                 <h1>COMPRA EFETUADA COM SUCESSO!</h1>
+                <h5>Em breve entraremos em contato</h5>
             </div>
             <button onClick={()=>{reload()}} className="return">
                 <Link to="./" className="remove"> Retornar ao Início </Link >

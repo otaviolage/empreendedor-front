@@ -13,10 +13,25 @@
     align-items: center;
     flex-direction: column;
     width: 95%;
+    max-width: 800px;    
+}
+
+.img-item{
+    width: 250px;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.box-itemcart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    min-height: 140px;
     max-width: 800px;
-    
-    
-    
+    border-bottom: 2px solid rgb(224, 222, 222);
+    flex-wrap: wrap;
 }
 
  .item-cart{
@@ -31,6 +46,14 @@
 
 .body-cart h1{
     font-family: 'Ubuntu';
-    color: #86c7ff;
+    color: #090b0e;
+    padding-top: 80px;
+}
 
+.body-cart h3{
+    font-family: 'Ubuntu';
+    color: #ffffff;
+    text-align: left;
+    padding-left: 300px;
+    padding-bottom: 10px;
 }

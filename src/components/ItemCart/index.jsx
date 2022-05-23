@@ -24,11 +24,11 @@ const ItemCart = ({item})=>{
             <div className="box-itemcart">
                 <img className="img-item" src={item.imageUrl} alt="airfryer"/>
                 <div className="desc-item">
-                    <div>
+                    {/* <div>
                         <p className="desc">{item.name}</p>
                         <p className="cod">Código do produto: {item.sku}</p>
-                    </div>
-                    <p className="vendedor">Vendido e entregue por {item.vendor.name}</p>
+                    </div> */}
+                    <p className="vendedor">Consultoria de {item.vendor.name}</p>
                 </div>
                 <div className="qtd">
                     <label htmlFor="quantidade">Quantidade:</label> 
