@@ -75,7 +75,7 @@ class Signup extends Component {
 
             {this.state.isChecked ? (
               <button className="btn btn-success">
-                <Link to="./admin">Detalhes</Link>
+                <Link to="./admin"><b>Detalhes</b></Link>
               </button>
             ) : (
               <button className="btn btn-success" onClick={this.NewUser}>

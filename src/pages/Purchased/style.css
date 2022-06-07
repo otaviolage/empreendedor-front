@@ -25,7 +25,7 @@ h5 {
     justify-content: center;
     text-decoration: none;
     border-radius: 10px;
-    background-color: #3da30a;
+    background-color: #46AEF7;
     width: 250px;
     height: 40px;
     margin-top: 10px;
@@ -42,5 +42,5 @@ h5 {
 }
 
 .return:hover {
-    background-color: #58c223;
+    background-color: #000000;
 }
