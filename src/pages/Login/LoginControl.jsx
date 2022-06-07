@@ -35,7 +35,7 @@ class LoginControl extends React.Component {
 
     if (username.value === "admin" && password.value === "admin") {
       return this.setState({
-        isAdmin: true
+        isAdmin: true,
       });
     }
 

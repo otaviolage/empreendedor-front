@@ -44,7 +44,7 @@ const Product = ({ prod }, cartQuantity) => {
           ) : (
             <button
               onClick={() => {
-                localStorage.clear()
+                localStorage.clear();
                 addToCart(prod);
               }}
               className="adicionar"

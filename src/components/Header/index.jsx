@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Header(page) {
   const reload = () => {
-    localStorage.clear()
+    localStorage.clear();
     window.location.reload();
   };
   return (

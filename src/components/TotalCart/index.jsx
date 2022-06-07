@@ -44,16 +44,14 @@ const TotalCart = () => {
           </div>
         </div>
       </div>
-        <br />
+      <br />
       <button>
         <Link className="continue" to="./purchased">
-          <b>
-            Concluir a Compra
-          </b>
+          <b>Concluir a Compra</b>
         </Link>
       </button>
-      <br/>
-      <br/>
+      <br />
+      <br />
     </div>
   );
 };

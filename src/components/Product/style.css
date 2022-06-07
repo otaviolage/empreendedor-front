@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oxygen:wght@300;400;700&family=Ubuntu:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oxygen:wght@300;400;700&family=Ubuntu:wght@500&display=swap");
 
-.product{
+.product {
     margin: 10px;
-    background-image: linear-gradient(#46AEF7 10%, #378AC3 90%);
+    background-image: linear-gradient(#46aef7 10%, #378ac3 90%);
     display: flex;
     flex-direction: column;
     width: 22%;
@@ -14,21 +14,21 @@
     margin-right: 20px;
 }
 
-.product:hover{
+.product:hover {
     box-shadow: 0px 0px 21px -5px rgb(0, 0, 0);
     transition: 500ms;
 }
 
 .product .name-product {
-    font-family: 'Ubuntu';
+    font-family: "Ubuntu";
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.product .name-product p{
-    font-family: 'Ubuntu';
+.product .name-product p {
+    font-family: "Ubuntu";
     display: flex;
     text-align: center;
     align-items: center;
@@ -39,7 +39,7 @@
     font-weight: inherit;
 }
 
-.product .preco-product{
+.product .preco-product {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -48,120 +48,124 @@
     margin-top: 30px;
 }
 
-.product .preco-product p:nth-child(1){
+.product .preco-product p:nth-child(1) {
     font-size: 13px;
     color: gray;
 }
 
-.product .preco-product p:nth-child(3){
+.product .preco-product p:nth-child(3) {
     font-size: 15px;
     color: #404040;
 }
 
-.product .preco-product h4{
+.product .preco-product h4 {
     align-items: center;
     text-align: center;
-    font-family: 'Ubuntu';
+    font-family: "Ubuntu";
     font-size: 20px;
     color: #f6f6f6;
 }
 
-.product .box-product{
+.product .box-product {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     height: 320px;
 }
-.product .img-product img{
+.product .img-product img {
     width: 250px;
     position: relative;
     top: 40px;
     border-radius: 10px;
 }
 
-.product .img-product{
+.product .img-product {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.product:hover .img-like img{
+.product:hover .img-like img {
     opacity: 1;
     transition: 600ms;
 }
 
-.product:hover .img-like:hover img:nth-child(2){
+.product:hover .img-like:hover img:nth-child(2) {
     opacity: 1;
     transition: 200ms;
 }
 
-.product:hover .img-like img:nth-child(2){
+.product:hover .img-like img:nth-child(2) {
     opacity: 0;
 }
 
-.product .img-like{
+.product .img-like {
     width: 100%;
     display: flex;
     position: relative;
     background-color: chocolate;
 }
 
-.product .img-like img{
+.product .img-like img {
     width: 26px;
     opacity: 0;
     position: absolute;
     right: 15px;
 }
 
-.product .comprar .adicionar {background-image: #46AEF7}
 .product .comprar .adicionar {
-   width: 200px;
-   font-weight: bold;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   border-radius: 10px;
-   display: block;
- }
- .product .comprar .adicionar:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
-.product .comprar .adicionar:hover{
+    background-image: #46aef7;
+}
+.product .comprar .adicionar {
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+}
+.product .comprar .adicionar:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.product .comprar .adicionar:hover {
     background-color: #000000;
 }
-.product .comprar .adicionar{
+.product .comprar .adicionar {
     color: white;
     font-weight: bold;
     text-decoration: none;
 }
 
-.product .comprar .remover:hover{
+.product .comprar .remover:hover {
     background-color: #0091ff;
 }
-.product .comprar .remover{
+.product .comprar .remover {
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: none;
 }
-.product .comprar .remover {background-image: #0d7ed4}
+.product .comprar .remover {
+    background-image: #0d7ed4;
+}
 .product .comprar .remover {
     width: 200px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   border-radius: 10px;
-   display: block;
- }
- .product .comprar .remover:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+}
+.product .comprar .remover:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}

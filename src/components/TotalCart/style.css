@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oxygen:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oxygen:wght@300;400;700&display=swap");
 
-.totalcart{
+.totalcart {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#404040;
-    
-    
+    color: #404040;
 }
 
-.totalcart .box-totalcart{
+.totalcart .box-totalcart {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -22,23 +20,23 @@
     border-radius: 20px;
 }
 
-.totalcart .box-totalcart .desc-preco{
+.totalcart .box-totalcart .desc-preco {
     display: flex;
     justify-content: space-around;
     width: 300px;
 }
 
-.totalcart .box-totalcart .desc-preco p{
+.totalcart .box-totalcart .desc-preco p {
     font-weight: bold;
-    font-family: 'Ubuntu';
+    font-family: "Ubuntu";
 }
 
-.totalcart .box-totalcart .desc-preco div p .continue{
+.totalcart .box-totalcart .desc-preco div p .continue {
     color: #4c3fff;
     font-size: 15px;
 }
 
-.totalcart .box-totalcart .continue{
+.totalcart .box-totalcart .continue {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,10 +48,10 @@
     height: 40px;
 }
 
-button{
-    background-image: #46AEF7
+button {
+    background-image: #46aef7;
 }
 
-button:hover{
-    background-image: #33001b
+button:hover {
+    background-image: #33001b;
 }

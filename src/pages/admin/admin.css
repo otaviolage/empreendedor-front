@@ -1,11 +1,11 @@
-.form{
-    width: 100%;
-    padding: 8px 10px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    font-weight: bold;
-    text-decoration: none;
-    color: white
+.form {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
 }
 
 input {
@@ -14,7 +14,7 @@ input {
   margin: 8px 0;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px solid #46AEF7;
+  border-bottom: 2px solid #46aef7;
 }
 
 input:focus {
@@ -24,11 +24,11 @@ input:focus {
 button {
   font-weight: bold;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 100%;
   height: 40px;
   border-radius: 10px;
-  background-color: #46AEF7;
+  background-color: #46aef7;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,6 +36,6 @@ button {
   cursor: pointer;
 }
 
-button:hover{
-    background-color: #000000;
+button:hover {
+  background-color: #000000;
 }

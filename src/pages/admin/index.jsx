@@ -41,7 +41,7 @@ class Admin extends React.Component {
     });
 
     this.setState({
-      returnToHome: true
+      returnToHome: true,
     });
   };
 
