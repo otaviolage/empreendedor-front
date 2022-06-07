@@ -1,11 +1,14 @@
-.home{
+body {
+    background-image: linear-gradient(76.3deg, rgb(106, 120, 128) 12.6%, rgb(147, 173, 194) 82.8%);
+}
+.home {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
 }
 
-.home .body-home{
+.home .body-home {
     display: flex;
     align-items: center;
     flex-wrap: wrap;

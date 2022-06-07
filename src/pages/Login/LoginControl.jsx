@@ -1,43 +1,52 @@
 import React from "react";
 import Signup from "./Signup";
-import Admin from "./../admin/index.jsx"
+import Home from "./../Home/index.jsx";
+import Admin from "./../admin/index.jsx";
 import "./NavbarStyle.css";
-
 class LoginControl extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       users: [
-        { username: "code", password: "blogger" },
-        { username: "true", password: "codes" },
-        { username: "furkan", password: "gulsen" }
+        { username: "admin", password: "admin" },
+        { username: "otavio", password: "123" },
+        { username: "matheus", password: "123" },
       ],
       welcomeConnect: false,
       trueUsername: "",
       isSign: false,
-      isSignUp: false
+      isSignUp: false,
+      isAdmin: false,
     };
     this.new = this.props;
   }
 
   Control = () => {
     var newState = this.state.users.concat(this.new.newUser);
+    console.log("newState", newState);
     if (this.new.newUser !== undefined) {
       this.setState({
-        users: newState
+        users: newState,
       });
     }
 
     var username = document.getElementById("username");
     var password = document.getElementById("password");
-    this.state.users.map(user => {
+
+    if (username.value === "admin" && password.value === "admin") {
+      return this.setState({
+        isAdmin: true,
+      });
+    }
+
+    this.state.users.map((user) => {
       if (
         user.username === username.value &&
         user.password === password.value
       ) {
         return this.setState({
           welcomeConnect: true,
-          trueUsername: user.username
+          trueUsername: user.username,
         });
       }
     });
@@ -50,8 +59,10 @@ class LoginControl extends React.Component {
   render() {
     return (
       <div>
-        {this.state.welcomeConnect ? (
+        {this.state.isAdmin ? (
           <Admin />
+        ) : this.state.welcomeConnect ? (
+          <Home />
         ) : this.state.isSign ? (
           <Signup dataState={this.state} isClick={this.state.welcomeConnect} />
         ) : (
@@ -79,10 +90,10 @@ class LoginControl extends React.Component {
                 textAlign: "center",
                 color: "#262626",
                 marginTop: "-5px",
-                cursor: "pointer"
+                cursor: "pointer",
               }}
             >
-              Sign Up
+              Novo Usuário
             </p>
           </div>
         )}

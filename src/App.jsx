@@ -1,16 +1,15 @@
-import { BrowserRouter as Router} from 'react-router-dom'
-import Routes from './routes/index';
+import { BrowserRouter as Router } from "react-router-dom";
+import Routes from "./routes/index";
 
-import { CartProvider } from './hooks/Cart'
+import { CartProvider } from "./hooks/Cart";
 
 function App() {
   return (
     <CartProvider>
       <Router>
-        <Routes/>
+        <Routes />
       </Router>
     </CartProvider>
-  
   );
 }
 

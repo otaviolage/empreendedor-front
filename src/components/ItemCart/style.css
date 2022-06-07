@@ -1,33 +1,35 @@
-.itemcart .box-itemcart{
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oxygen:wght@300;400;700&display=swap");
+* {
+    font-family: "Ubuntu";
+}
+.itemcart .box-itemcart {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 95%;
     min-height: 140px;
     max-width: 800px;
-    border-bottom: 2px solid rgb(224, 222, 222);
     flex-wrap: wrap;
 }
 
-.itemcart{
+.itemcart {
     display: flex;
     width: 100%;
     justify-content: center;
     margin-top: 15px;
 }
 
-.itemcart .img-item{
+.itemcart .img-item {
     width: 100px;
     margin-bottom: 20px;
     margin-left: 10px;
-
 }
 
-.itemcart .qtd img{
-    width:18px;
+.itemcart .qtd img {
+    width: 18px;
 }
 
-.itemcart .box-itemcart .qtd{
+.itemcart .box-itemcart .qtd {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,28 +40,27 @@
     margin-right: 10px;
 }
 
-.itemcart .box-itemcart .qtd label{
-    color: #404040;
+.itemcart .box-itemcart .qtd label {
+    color: #ffffff;
     font-weight: bold;
     font-size: 15px;
 }
 
-.itemcart .box-itemcart .qtd .box-qtd{
+.itemcart .box-itemcart .qtd .box-qtd {
     display: flex;
     align-items: center;
     width: 100px;
     justify-content: space-between;
 }
 
-.itemcart .box-itemcart .qtd .box-qtd select{
+.itemcart .box-itemcart .qtd .box-qtd select {
     border: 1px solid #e5e5e5;
     width: 50px;
     height: 40px;
     border-radius: 5px;
-    
 }
 
-.itemcart .box-itemcart .qtd .box-qtd button{
+.itemcart .box-itemcart .qtd .box-qtd button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,63 +70,61 @@
     border-radius: 5px;
 }
 
-.itemcart .box-itemcart .qtd .box-qtd button:hover{
+.itemcart .box-itemcart .qtd .box-qtd button:hover {
     background-color: #e5e5e5;
 }
 
-.itemcart .box-itemcart .desc-item{
+.itemcart .box-itemcart .desc-item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 70px;
 }
 
-.itemcart .box-itemcart .desc-item div{
+.itemcart .box-itemcart .desc-item div {
     display: flex;
     flex-direction: column;
 }
-.itemcart .box-itemcart .desc-item div p{
-    color: #404040;
+.itemcart .box-itemcart .desc-item div p {
+    color: #ffffff;
     font-weight: bold;
 }
 
-.itemcart .box-itemcart .desc-item div .cod{
-    color: #b4b1b1;
+.itemcart .box-itemcart .desc-item div .cod {
+    color: #ffffff;
     font-size: 13px;
 }
 
-.itemcart .box-itemcart .desc-item .vendedor{
-    color: #b4b1b1;
-    font-size: 15px;
+.itemcart .box-itemcart .desc-item .vendedor {
+    color: #ffffff;
+    font-size: 28px;
+    padding-top: 25px;
 }
 
-.itemcart .box-itemcart .precos{
+.itemcart .box-itemcart .precos {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 60px;
     margin-bottom: 20px;
     margin-left: 10px;
-
 }
 
-.itemcart .box-itemcart .precos p{
-    color: #404040;
+.itemcart .box-itemcart .precos p {
+    color: #ffffff;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 24px;
 }
 
-.itemcart .box-itemcart .precos div p{
+.itemcart .box-itemcart .precos div p {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-weight: lighter;
-    font-size: 17px;
-
+    font-size: 24px;
 }
 
-
-.itemcart .box-itemcart .precos div p{
-    color: #0083CA;
+.itemcart .box-itemcart .precos div p {
+    color: #ffffff;
     font-weight: bold;
 }

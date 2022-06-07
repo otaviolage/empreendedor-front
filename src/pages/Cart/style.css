@@ -1,11 +1,13 @@
-.cart{
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oxygen:wght@300;400;700&display=swap");
+
+.cart {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
 }
 
-.cart .body-cart{
+.cart .body-cart {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -13,14 +15,44 @@
     max-width: 800px;
 }
 
- .item-cart{
+.img-item {
+    width: 130px;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.box-itemcart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    min-height: 140px;
+    max-width: 800px;
+    border-bottom: 2px solid rgb(224, 222, 222);
+    flex-wrap: wrap;
+}
+
+.item-cart {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
     max-width: 800px;
+    font-family: "Ubuntu";
 }
 
-.body-cart h1{
-    color: #0a6fc7;
+.body-cart h1 {
+    font-family: "Ubuntu";
+    color: #ffffff;
+    padding-top: 80px;
+    padding-right: 150px;
+}
+
+.body-cart h3 {
+    font-family: "Ubuntu";
+    color: #ffffff;
+    text-align: left;
+    padding-left: 300px;
+    padding-bottom: 10px;
 }

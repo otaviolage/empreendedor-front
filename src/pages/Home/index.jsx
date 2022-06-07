@@ -22,7 +22,6 @@ const trazerData = async () => {
     .catch(function (error) {
       console.log(error);
     });
-    console.log(123456, data)
   return data;
 };
 
