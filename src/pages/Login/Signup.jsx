@@ -46,19 +46,19 @@ class Signup extends Component {
         <LoginControl newUser={this.state.newUser}/>
         :
         <div className="main_box--main--signUp">
+          <input type="text" id="signUpUsername" className="form-control" placeholder="username" autoComplete="false"></input>
+          <input type="password" id="signUpPassword1" className="form-control" placeholder="password" ></input>
+          <input type="password" id="signUpPassword2" className="form-control" placeholder="re-enter password" ></input>
+          
           <label className="consult-label">
             <input type="checkbox"
               defaultChecked={this.state.isChecked}
               onChange={this.toggleChange}
             />
-            Consultor?
+            Consultor
           </label>
+          <br />
           
-          <input type="text" id="signUpUsername" className="form-control" placeholder="username" autoComplete="false"></input>
-          <input type="password" id="signUpPassword1" className="form-control" placeholder="password" ></input>
-          <input type="password" id="signUpPassword2" className="form-control" placeholder="re-enter password" ></input>
-          <br />
-          <br />
           {this.state.isChecked ?
           <button className="btn btn-success">
             <Link to="./admin">

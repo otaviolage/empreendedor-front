@@ -1,70 +1,43 @@
 import React from "react";
-import Logo from "../../images/logo.png"
 import "./style.css";
 
-import {
-  AccountCircle,
-  Home,
-  ShoppingCart,
-  } from "@material-ui/icons";
+import { AccountCircle, Home } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 
 export default function Header(page) {
-  console.log(page.page);
-  
+  const reload = () => {
+    localStorage.clear()
+    window.location.reload();
+  };
   return (
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
-        <img className="logo2" src={Logo} alt="lsike"/>
-          <a href="./" className="logo">PLATAFORMA DO EMPREENDEDOR</a>
+          <a href="./" className="logo">
+            PLATAFORMA DO EMPREENDEDOR
+          </a>
         </div>
-        
+
         <div className="topRight">
-          <Link to="./" className="sacola">
-            {page.page === "home" ? (
+          <button
+            onClick={() => {
+              reload();
+            }}
+          >
+            <Link to="./" className="sacola">
               <div className="selected">
-                <Home 
-                style={{fontSize: 40}}/>
+                <Home style={{ fontSize: 40 }} />
               </div>
-            ) : (
-              <div className="topbarIconContainer">
-                <Home
-                style={{fontSize: 40}}
-                />
-              </div>
-            )}
-          </Link>
+            </Link>
+          </button>
 
-          <Link to="./cart" className="sacola">
-            {page.page === "home" ? (
+          <button>
+            <Link to="./login-control" className="sacola">
               <div className="selected">
-                <ShoppingCart 
-                style={{fontSize: 40}}/>
+                <AccountCircle style={{ fontSize: 40 }} />
               </div>
-            ) : (
-              <div className="topbarIconContainer">
-                <ShoppingCart 
-                style={{fontSize: 40}}
-                />
-              </div>
-            )}
-          </Link>
-
-          <Link to="./login-control" className="sacola">
-            {page.page === "admin" ? (
-              <div className="selected">
-                <AccountCircle />
-              </div>
-            ) : (
-              <div className="topbarIconContainer">
-                <AccountCircle 
-               style={{fontSize: 40}}
-                />
-              </div>
-            )}
-          </Link>
-          
+            </Link>
+          </button>
         </div>
       </div>
     </div>

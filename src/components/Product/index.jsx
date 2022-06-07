@@ -4,9 +4,8 @@ import { useEffect, useState, useMemo } from "react";
 import formatPrice from "../../utils/formatPrice";
 import { Link } from "react-router-dom";
 
-const Product = ({ prod }) => {
+const Product = ({ prod }, cartQuantity) => {
   const { addToCart, cart, deleteToCart } = useCart();
-  // const parcela = prod.availability.price / 8;
 
   const [isInCart, setIsInCart] = useState(false);
   useEffect(() => {
@@ -45,11 +44,12 @@ const Product = ({ prod }) => {
           ) : (
             <button
               onClick={() => {
+                localStorage.clear()
                 addToCart(prod);
               }}
               className="adicionar"
             >
-              <Link to="./cart" className="sacola">
+              <Link to="./detail" className="sacola">
                 Quero saber mais!
               </Link>
             </button>

@@ -9,11 +9,10 @@ import Signup from '../pages/Login/Signup'
 
 
 const Routes = ()=>{
-
     return (
     <Switch>
         <Route path="/" component={Home} exact/>
-        <Route path="/cart" component={Cart}/>
+        <Route path="/detail" component={Cart}/>
         <Route path="/admin" component={Admin}/>
         <Route path="/purchased" component={Purchased}/>
         <Route path="/login-control" component={LoginControl}/>

@@ -93,7 +93,7 @@ class LoginControl extends React.Component {
                 cursor: "pointer",
               }}
             >
-              Sign Up
+              Novo Usuário
             </p>
           </div>
         )}

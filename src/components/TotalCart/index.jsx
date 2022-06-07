@@ -47,9 +47,13 @@ const TotalCart = () => {
         <br />
       <button>
         <Link className="continue" to="./purchased">
-          Concluir a Compra
+          <b>
+            Concluir a Compra
+          </b>
         </Link>
       </button>
+      <br/>
+      <br/>
     </div>
   );
 };

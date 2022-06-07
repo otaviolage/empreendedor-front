@@ -15,7 +15,7 @@ const Cart = () => {
                 <div className="box-itemcart">
                     <img className="img-item" src={cart[0].imageUrl} alt="airfryer"/>
                     <h1>{cart[0].name}</h1>
-                    <h3>Especialista em recursos humanos com 6 anos de experiência no setor.</h3>
+                    <h3>Consultor especializado em {cart[0].vendor.name}</h3>
                 </div>
                 }
                 <br/>
@@ -24,7 +24,7 @@ const Cart = () => {
                         ?cart.map((cartItem) => {
                             return <ItemCart item={cartItem} key={cartItem.sku} />
                         }) 
-                        :<div>Sacola Vazia :(</div>
+                        :<div>Sacola Vazia</div>
                     }
                 </div>
                 <TotalCart />

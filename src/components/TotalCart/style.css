@@ -51,9 +51,9 @@
 }
 
 button{
-    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)
+    background-image: #46AEF7
 }
 
 button:hover{
-    background-image: linear-gradient(to right, #ff0084 0%, #33001b  51%, #ff0084  100%)
+    background-image: #33001b
 }

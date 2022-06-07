@@ -17,7 +17,7 @@
 }
 
 .img-item{
-    width: 250px;
+    width: 130px;
     position: relative;
     top: 40px;
     border-radius: 10px;
@@ -46,8 +46,9 @@
 
 .body-cart h1{
     font-family: 'Ubuntu';
-    color: #090b0e;
+    color: #ffffff;
     padding-top: 80px;
+    padding-right: 150px;
 }
 
 .body-cart h3{

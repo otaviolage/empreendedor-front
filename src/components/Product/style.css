@@ -2,7 +2,7 @@
 
 .product{
     margin: 10px;
-    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    background-image: linear-gradient(#46AEF7 10%, #378AC3 90%);
     display: flex;
     flex-direction: column;
     width: 22%;
@@ -51,12 +51,10 @@
 .product .preco-product p:nth-child(1){
     font-size: 13px;
     color: gray;
-    
 }
 
 .product .preco-product p:nth-child(3){
     font-size: 15px;
-    
     color: #404040;
 }
 
@@ -87,14 +85,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
 }
 
 .product:hover .img-like img{
     opacity: 1;
     transition: 600ms;
-    
 }
 
 .product:hover .img-like:hover img:nth-child(2){
@@ -104,7 +99,6 @@
 
 .product:hover .img-like img:nth-child(2){
     opacity: 0;
-
 }
 
 .product .img-like{
@@ -121,7 +115,7 @@
     right: 15px;
 }
 
-.product .comprar .adicionar {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+.product .comprar .adicionar {background-image: #46AEF7}
 .product .comprar .adicionar {
    width: 200px;
    font-weight: bold;
@@ -155,7 +149,7 @@
     font-weight: bold;
     text-decoration: none;
 }
-.product .comprar .remover {background-image: linear-gradient(to right, #ff0084 0%, #33001b  51%, #ff0084  100%)}
+.product .comprar .remover {background-image: #0d7ed4}
 .product .comprar .remover {
     width: 200px;
    text-align: center;

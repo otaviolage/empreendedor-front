@@ -1,12 +1,11 @@
 import "./style.css";
-import del from "../../images/delete.png";
 import {useCart} from '../../hooks/Cart';
 import { useCallback, useMemo} from "react";
 import formatPrice from "../../utils/formatPrice";
 
 
 const ItemCart = ({item})=>{
-    const {updateCart,deleteToCart} = useCart();
+    const {updateCart, deleteToCart} = useCart();
 
     const parsedTotal = useMemo(()=>{
         return  formatPrice(item.availability.price);
@@ -22,24 +21,8 @@ const ItemCart = ({item})=>{
     return (
         <div className="itemcart">
             <div className="box-itemcart">
-                <img className="img-item" src={item.imageUrl} alt="airfryer"/>
                 <div className="desc-item">
-                    {/* <div>
-                        <p className="desc">{item.name}</p>
-                        <p className="cod">Código do produto: {item.sku}</p>
-                    </div> */}
                     <p className="vendedor">Consultoria de {item.vendor.name}</p>
-                </div>
-                <div className="qtd">
-                    <label htmlFor="quantidade">Quantidade:</label> 
-                    <div className="box-qtd">
-                        <select onChange={(e)=>{updateCart(item.sku,e.target.value)}} name="quantidade" value={item.quantity} id="quantidade">
-                            {allQuantity()}
-                        </select>
-                        <button onClick={()=>{deleteToCart(item.sku)}}>
-                            <img src={del} alt="delete"/>
-                        </button>
-                    </div>
                 </div>
                 <div className="precos">
                     <p>Preço:</p>

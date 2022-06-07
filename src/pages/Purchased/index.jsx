@@ -2,7 +2,6 @@ import "./style.css";
 import Header from '../../components/Header';
 import { Link } from 'react-router-dom';
 
-
 const Purchased = () => {
     const reload = () => {
         window.location.reload()
