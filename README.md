@@ -1,8 +1,6 @@
 Link para back end do projeto: https://github.com/otaviolage/empreendedor-back
 
 # PLATAFORMA DO EMPREENDEDOR
-Este projeto foi realizado por alunos da Facens com o intuito de integrar o conhecimento aprendido ao longo do quarto semestre do curso de Análise e Desenvolvimento de Sistemas e como entrega final da matéria "Fábrica de Projetos V", ministrada pelo professor Daniel Ohata.
-
 
 ## :date: Tecnologias Utilizadas
 - Javascript
